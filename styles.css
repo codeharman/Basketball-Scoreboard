@@ -27,7 +27,7 @@ body {
 }
 
 .home, .guest {
-   display: flex;
+  display: flex;
   flex-direction: column; /* stack vertically */
   align-items: center;
   gap: 15px; 
@@ -41,7 +41,7 @@ body {
 
 /* Home and Guest count button */
 
-.home-countBtn, .guest-countBtn {
+#home-countBtn, #guest-countBtn {
   font-family: 'myFont';
   display: inline-block;
   background-color: #070001;
