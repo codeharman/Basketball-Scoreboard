@@ -28,7 +28,7 @@ A simple interactive basketball scoreboard built with **HTML, CSS, and JavaScrip
 
 ## Demo
 
-![Demo Screenshot](./1.png)  
+![Demo Screenshot](./12.png)  
 ---
 
 ## Installation
