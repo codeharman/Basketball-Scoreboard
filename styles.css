@@ -1,0 +1,35 @@
+/* Body here */
+
+body {
+  background-color: #1b244a;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 100px;
+}
+
+/* Main here */
+
+#main {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: white;
+}
+
+/* Home and Guest text size */
+.home-header, .guest-header {
+  font-size: 100px;
+}
+
+/* Home and Guest count button */
+
+#home-countBtn, #guest-countBtn {
+  all: unset;
+  display: block;
+  text-align: center;
+  background-color: #070001;
+  color: #c03d54;
+  font-size: 100px;
+  border-radius: 5px;
+  padding: 10px 40px; /* Now you’ll see it */
+}
