@@ -51,6 +51,7 @@ The scoreboard updates in real-time.
 
 # Code Structure
 
+```
 basketball-scoreboard/
 ├─ index.html        # Main HTML file
 ├─ styles.css        # Styling for scoreboard
