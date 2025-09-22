@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BasketBall Scoreboard</title>
+  <link rel="icon" type="image/x-icon" href="https://em-content.zobj.net/source/apple/118/basketball-and-hoop_1f3c0.png">
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+
+  <!-- Main body -->
+
+  <main id="main">
+
+    <!-- Home section -->
+    <div class="home">
+      <h2 class="home-header">HOME</h2>
+      <p id="home-countBtn" aria-label="Home team score">0</p>
+
+      <!-- Home Buttons -->
+       <div class="home-buttoncontainer">
+        <button id="home-plus-one" onclick="updateScore('home', 1)">+1</button>
+        <button id="home-plus-two" onclick="updateScore('home', 2)">+2</button>
+        <button id="home-plus-three" onclick="updateScore('home', 3)">+3</button>
+      </div>
+    </div>
+
+    <!-- Guest section -->
+    <div class="guest">
+      <h2 class="guest-header">GUEST</h2>
+      <p id="guest-countBtn" aria-label="Guest team score">0</p>
+
+      <!-- Guest Button -->
+       <div class="guest-buttoncontainer">
+        <button id="guest-plus-one" onclick="updateScore('guest', 1)">+1</button>
+        <button id="guest-plus-two" onclick="updateScore('guest', 2)">+2</button>
+        <button id="guest-plus-three" onclick="updateScore('guest', 3)">+3</button>
+      </div>
+    </div>
+  </main>
+   <script src="./better.js"></script>
+</body>
+</html>
