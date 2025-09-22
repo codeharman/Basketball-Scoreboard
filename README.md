@@ -1,5 +1,7 @@
 # 🏀 Basketball Scoreboard
 
+[Visit the website here](https://basketball-scoreboard-lovat.vercel.app/)
+
 A simple interactive basketball scoreboard built with **HTML, CSS, and JavaScript**. Track scores for **Home** and **Guest** teams with **+1, +2, and +3 buttons**.
 
 ---
