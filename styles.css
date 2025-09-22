@@ -1,35 +1,74 @@
+/* Custom Font */
+
+@font-face {
+  font-family: 'myFont';
+  src: url('./cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 /* Body here */
 
 body {
   background-color: #1b244a;
-  margin: 0;
+  margin: 100px 0px 0px 0px;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 100px;
 }
+
 
 /* Main here */
 
 #main {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   text-align: center;
   color: white;
 }
 
+.home, .guest {
+   display: flex;
+  flex-direction: column; /* stack vertically */
+  align-items: center;
+  gap: 15px; 
+}
+
 /* Home and Guest text size */
 .home-header, .guest-header {
-  font-size: 100px;
+  font-size: 50px;
+  margin: 0;
 }
 
 /* Home and Guest count button */
 
-#home-countBtn, #guest-countBtn {
-  all: unset;
-  display: block;
-  text-align: center;
+.home-countBtn, .guest-countBtn {
+  font-family: 'myFont';
+  display: inline-block;
   background-color: #070001;
   color: #c03d54;
-  font-size: 100px;
+  font-size: 80px;
   border-radius: 5px;
-  padding: 10px 40px; /* Now you’ll see it */
+  padding: 20px 40px;
+  margin: 0;
+}
+
+/* Home and Guest container */
+
+.home-buttoncontainer, .guest-buttoncontainer {
+  display: flex;
+  justify-content: center;
+  gap: 5px
+}
+
+/* Home and Guest team score button */
+
+#home-plus-one, #home-plus-two, #home-plus-three, #guest-plus-one, #guest-plus-two, #guest-plus-three {
+  font-family: 'myFont';
+  font-size: 15px;
+  padding: 10px 10px;
+  color: #9baad9;
+  background-color: #1b244a;
+  border: 2px solid #9baad9;
+  border-radius: 6px;
+  cursor: pointer;
 }
